@@ -1,0 +1,28 @@
+.react {
+  background: aqua;
+  color: black;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 16;
+}
+
+.Sass-component {
+  display: flex;
+}
+
+.Sass-component .box {
+  background: red;
+}
+
+.Sass-componentt .box.red {
+  background: red;
+}
+
+.Sass-component {
+  .box {
+    background: red;
+    &.yellow {
+      background: yellow;
+    }
+  }
+}
