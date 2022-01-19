@@ -3,6 +3,9 @@ import styled from "styled-components";
 import Menu from "./Menu";
 import { firstMenuData, secondMenuData } from "../../data/menu";
 import { useDropdownClickBody } from "../../hooks";
+import { ImgUserProfile } from "../../assets/images/profile";
+
+
 //src->데이터폴더->메뉴폴더로 반복 배열값을 넘겨서 가져온다.
 
 const DropdownProfile = ({ onClose }) => {
@@ -13,7 +16,7 @@ const DropdownProfile = ({ onClose }) => {
       <Container ref={dropdownEl}>
         <Top>
           <TopLeft>
-            <ImgProfile src="http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg" />
+            <ImgProfile />
           </TopLeft>
           <TopRight>
             <UserName>김태완</UserName>
@@ -44,8 +47,12 @@ const Top = styled.div`
 const TopLeft = styled.div``;
 
 const ImgProfile = styled.img`
-  border-radius: 50%;
+  background-image: url(${ImgUserProfile});
+  width: 40px;
   height: 40px;
+  background-position: center;
+  background-size: 40px;
+  border-radius: 50%;
   margin-right: 16px;
 `;
 const TopRight = styled.div`

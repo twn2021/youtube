@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import imgDown from "../../assets/images/down.png";
-import imgUp from "../../assets/images/up.png";
+import imgDown from "../../assets/images/youtube/down.png";
+import imgUp from "../../assets/images/youtube/up.png";
 
 const Menu = ({ data, title, moreData, defaultCount = 999 }) => {
   // 드롭다운프로필 프롭스안에 있는 data 값을 받아오기 위해 {}를 사용한다.
@@ -63,14 +63,15 @@ const Item = styled.li`
   }
 `;
 const ImgItem = styled.img`
-  width: 42px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   margin-right: 16px;
 `;
 const ItemName = styled.div`
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  font-size: 14px;
   /* 글씨가 화면을 넘어가면 ... 으로 표기 */
 `;
 

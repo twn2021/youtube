@@ -1,152 +1,136 @@
+import { Favorite, Goodok, Home, Like, Membership,
+  Mycinema, Premium, Record, Savebox, Search, Changeid,
+  Setting, Showlecord, Willsee, Mymovie, Mychanel, Logout, } from  "../assets/images/youtube"
+
+import {
+js, jQuery, react, Kkw, Rok, Wh, Seoul,
+} from "../assets/images/profile";
+
+
 //프로필(오른쪽)메뉴
 export const firstMenuData = [
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
-    name: "내 채널1",
+    image: Mychanel,
+    name: "내 채널",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
-    name: "내 채널2",
+    image: Membership,
+    name: "구매 항목 및 멤버십",
   },
 ];
 
 export const secondMenuData = [
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
-    name: "채널 관리",
+    image: Changeid,
+    name: "계정 관리",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
-    name: "동영상 관리",
+    image: Logout,
+    name: "로그아웃",
   },
 ];
 
 //사이드바(왼쪽) 메뉴
 export const sidebarMenuData1 = [
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Home,
     name: "홈",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Search,
     name: "탐색",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Goodok,
     name: "구독",
   },
 ];
 
+
 export const sidebarMenuData2 = [
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Savebox,
     name: "보관함",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Showlecord,
     name: "시청 기록",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Mymovie,
     name: "내 동영상",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Mycinema,
     name: "내 영화",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Willsee,
     name: "나중에 볼 동영상",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Like,
     name: "좋아요 표시한 동영상 ",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
-    name: "코딩기초없이 웹사이트..",
+    image: Favorite,
+    name: "즐겨찾기",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
-    name: "즐겨찾기",
+    image: Favorite,
+    name: "펜페이지 만들기",
   },
 ];
 
 export const sidebarMenuData3 = [
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: js,
     name: "구독 목록1",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: jQuery,
     name: "구독 목록2",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: react,
     name: "구독 목록3",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Kkw,
     name: "구독 목록4",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Rok,
     name: "구독 목록5",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Seoul,
     name: "구독 목록6",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Wh,
     name: "구독 목록7",
   },
 ];
 
 export const sidebarMenuData4 = [
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Premium,
     name: "YouTube Premium",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Mymovie,
     name: "영화",
   },
 ];
 
 export const sidebarMenuData5 = [
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Setting,
     name: "설정",
   },
   {
-    image:
-      "http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg",
+    image: Record,
     name: "신고 기록",
   },
 ];
