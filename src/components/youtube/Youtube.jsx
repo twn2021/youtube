@@ -16,7 +16,6 @@ const Youtube = () => {
       {/* <button onClick={() => setShowSidebar(true)}>sidebar</button> */}
       {showSidebar && <ModalSidebar onClose={hideSidebar} />}
       {/* 클릭시 생성 제거 */}
-
       <Wrapper>
         <VideoList data = {videoList} />
       </Wrapper>

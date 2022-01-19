@@ -31,7 +31,6 @@ const VideoList = ({data}) => {
         </Container>
         </Wrap>
         </>
-      
     )
 }; 
 
