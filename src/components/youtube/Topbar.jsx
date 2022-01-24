@@ -99,6 +99,7 @@ width: 22px;
 height: 22px;
 margin-top: 7px;
 margin: 7px 15px 0 15px;
+border: none;
 `;
 
 const ImgLogo = styled.img`
